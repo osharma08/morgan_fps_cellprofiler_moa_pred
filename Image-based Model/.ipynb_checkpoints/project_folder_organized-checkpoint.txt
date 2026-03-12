@@ -1,0 +1,40 @@
+project_root/
+│
+├── config.py
+├── utils.py
+├── preprocessing.py
+├── training.py
+├── plotting.py
+├── main.ipynb
+├── preprocess_external_test_data.py
+├── evaluate_external_test_data.py
+├── main_external_evaluation.ipynb
+│
+├── Data_cp_features/
+│   ├── NIHOVCAR3/
+│   │   ├── P1.csv
+│   │   ├── P2.csv
+│   │   ├── P3.csv
+│   │   ├── P4.csv
+│   │   ├── NIHOVCAR3_metadata.xlsx
+│   │   └── Splitting_Smiles/
+│   │       ├── structure_as_is_thr0.65_smiles.npz
+│   │       └── stratified_splits_thr0.65_smiles.npz
+│   │
+│   ├── U2OS/
+│   │   ├── P1.csv
+│   │   ├── ...
+│   │   └── U2OS_metadata.xlsx
+│   │
+│   └── HEPG2_new/
+│       ├── P1.csv
+│       ├── ...
+│       └── HEPG2_new_metadata.xlsx
+│
+└── results/
+    ├── NIHOVCAR3_mean_standard_structure_as_is/
+    │   ├── fold_metrics.csv
+    │   ├── summary_metrics.csv
+    │   ├── confusion_matrix.png
+    │   └── roc_curves.png
+    └── ...
