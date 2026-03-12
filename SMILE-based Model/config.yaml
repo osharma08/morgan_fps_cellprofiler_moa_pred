@@ -1,0 +1,4 @@
+paths:
+  train: "./Data/model_building_data_364cmpds.xlsx"
+  external_test: "./Data/external_test_set_2689.xlsx"
+  outputs: "./outputs"
